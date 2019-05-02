@@ -13,7 +13,12 @@
   Give it a key of name with the value being your name, and another key of age with the value being your age.
   Then alert your name using dot notation.
 */
-
+var me = {
+  name: "rachel",
+  age: 19
+  
+}
+console.log(me.name)
 //Code here
 
 ////////// PROBLEM 2 //////////
@@ -22,7 +27,16 @@
   Make a 'favoriteThings' object that contains the following keys: band, food, person, book, movie, holiday.
   Have the values to those keys be strings that are equal to your favorite thing in that category.
 */
-
+var favoriteThings ={
+  band: "paramore",
+  food: "pizza",
+  person:"Michelle",
+  book:"bible",
+  movie:"end game",
+  holiday: "ressurection sunday"
+} 
+favoriteThings.car = "elantra"
+favoriteThings.brand = "hyundai"
 //Code here
 
 /*
@@ -31,7 +45,8 @@
 */
 
 //Code here
-
+favoriteThings.food = 'Chicken Nuggets'
+favoriteThings.book = 'Harry Potter'
 /*
   Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
   and change the value of the book key in your favoriteThings object to be 'Harry Potter'.
@@ -48,13 +63,16 @@
   Set the value of that key to 'chapstick'.
   Using dot notation, add another key (or property) to your backPack object that is named color, with the value being the color of your backpack.
 */
-
+var backPack = {}
+var item = 'firstPocket' 
+backPack.firstPocket = "chapstick"
+backPack.color = "black"
 //Code here
 
 /*
   After you do the above, alert your entire backPack object.
 */
-
+console.log(backPack);
 //Code here
 
 /*
@@ -83,7 +101,8 @@ var user2 = {
   name -> 'Bryan G. Smith' and email -> 'bryan.smith@devmounta.in'.
   Make that change without modifying the original object code above.
 */
-
+user2.name = "Bryan G. Smith"
+user2.email = 'bryan.smith@devmounta.in'
 //Code Here
 
 /////////////////////// EXTRA PRACTICE PROBLEMS BELOW ////////////////////
@@ -94,7 +113,7 @@ var user2 = {
 /*
   Create an empty object called methodCollection.
 */
-
+var methodCollection 
 //Code Here
 
 /*
